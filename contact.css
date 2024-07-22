@@ -1,0 +1,123 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #f39c12;
+}
+
+.contact-section {
+    max-width: 1200px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1, .contact-section h2 {
+    text-align: center;
+    color: #f39c12;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.contact-info, .contact-form {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin: 0.5em 0;
+}
+
+.contact-info ul li i {
+    margin-right: 0.5em;
+}
+
+.contact-info ul li a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+contact-form form label {
+    margin-bottom: 0.5em;
+}
+
+.contact-form form input, .contact-form form textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form form button {
+    padding: 0.5em;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form form button:hover {
+    background-color: #e67e22;
+}
+
+.location-map {
+    text-align: center;
+}
+
+.location-map iframe {
+    width: 100%;
+    height: 450px;
+    border: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

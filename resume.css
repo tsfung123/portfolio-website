@@ -1,0 +1,91 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    border-bottom: 2px solid #f39c12;
+}
+
+.resume-section {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.resume-section h1 {
+    color: #f39c12;
+    margin-bottom: 0.5em;
+}
+
+.resume-section p {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+.download-button {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #f39c12;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-bottom: 1.5em;
+}
+
+.download-button:hover {
+    background-color: #e67e22;
+}
+
+.resume-images {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.resume-images img {
+    max-width: 45%;
+    height: auto;
+    border: 2px solid #f39c12;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}

@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(135deg, #f06, #48f);
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
+    border-radius: 15px;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.social-icons {
+    font-size: 1.5rem;
+}
+
+.social-icons a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff0;
+}
